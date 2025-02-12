@@ -12,7 +12,7 @@ import { GamepadIcon, Lock, Rocket, Server, Trophy, Users } from "lucide-react";
 export default function Home() {
   return (
     <section>
-      <GlowArea className="flex gap-8 items-center justify-center p-12">
+      <GlowArea className="flex gap-8 items-center justify-center lg:py-34 flex-col lg:flex-row">
         <Glow color="red" className="rounded-xl">
           <Card className="max-w-md">
             <CardHeader>
@@ -92,15 +92,6 @@ export default function Home() {
               <Button className="w-full">Subscribe</Button>
             </CardFooter>
           </Card>
-        </Glow>
-        <Glow color="teal">
-          <ul className="p-24">
-            <li>gsfsdfd</li>
-            <li>gsfsdfd</li>
-            <li>gsfsdfd</li>
-            <li>gsfsdfd</li>
-            <li>gsfsdfd</li>
-          </ul>
         </Glow>
       </GlowArea>
     </section>
